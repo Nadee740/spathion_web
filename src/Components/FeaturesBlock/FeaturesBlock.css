@@ -1,0 +1,44 @@
+.features{
+    padding: 20px;
+}
+
+.features_block{
+    padding-top: 10px;
+}
+.features_block img{
+    border-radius: 15px;
+    height: 500px;
+    width: 100%
+}
+.featuresblockcontent{
+    align-items: center;
+}
+.featuresblockcontent_header{
+   
+ width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.featuresblockcontent_header h2{
+    font-size: 2.5rem;
+}
+.featuresblockpara{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuresblockpara p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:rgb(120, 112, 112);
+
+}
+
+@media only screen and (max-width: 600px)  {
+    .features_block img{
+        height: 200px;
+    }
+}

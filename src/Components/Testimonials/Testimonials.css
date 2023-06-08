@@ -1,0 +1,24 @@
+.Testimonials{
+    padding:20px;
+    max-width: 600px;
+}
+.testimonials-container{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100%;
+}
+.div1{
+    display: flex;
+    align-items: center;
+}
+.div1 img{
+    padding-left: 5px;
+    border-radius: 50%;
+    width: 67px;
+    height: 60px;
+    
+}
+.div2{
+    font-weight: 700;
+    font-size: 1.5rem;
+}

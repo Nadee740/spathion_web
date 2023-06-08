@@ -1,0 +1,23 @@
+.statement-container{
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    background-color: rgb(83, 86, 86);
+    margin-bottom: 20px;
+    }
+
+ .statementimgdiv{
+   width: 100%;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+ }
+.statementimgdiv img{
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+
+}
